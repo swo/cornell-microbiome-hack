@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 518 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(0.711683,0,0,0.711683,355.403,-83.6179)">
+        <text x="51.367px" y="173.979px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;fill:rgb(206,206,206);">Bacteria</text>
+    </g>
+    <g transform="matrix(0.711683,0,0,0.711683,320.642,-8.64346)">
+        <text x="128.816px" y="173.979px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;">Salt</text>
+    </g>
+    <g transform="matrix(0.711683,0,0,0.711683,8.15643,-67.8552)">
+        <text x="61.294px" y="173.979px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;">High</text>
+        <text x="55.464px" y="202.627px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;">blood</text>
+        <text x="36.213px" y="231.275px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;">pressure</text>
+    </g>
+    <g transform="matrix(0.711683,0,0,0.711683,180.865,-94.851)">
+        <text x="60.721px" y="173.979px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;fill:rgb(206,206,206);">Host</text>
+        <text x="31.615px" y="202.627px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;fill:rgb(206,206,206);">immunity</text>
+    </g>
+    <g transform="matrix(0.711683,0,0,0.711683,180.865,-20.7167)">
+        <text x="60.721px" y="173.979px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;">Host</text>
+        <text x="23.966px" y="202.627px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:28.648px;">ph<tspan x="55.249px 69.917px " y="202.627px 202.627px ">ys</tspan>iology</text>
+    </g>
+    <g transform="matrix(0.965926,0.258819,-0.171641,0.640573,55.0914,-49.8163)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(255,0,0);"/>
+    </g>
+    <g transform="matrix(-0.965926,-0.258819,0.171641,-0.640573,254.334,254.058)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(0.965926,-0.258819,0.171641,0.640573,-7.16692,-40.7337)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(-0.965926,0.258819,-0.171641,-0.640573,317.319,122.807)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(1,0,0,0.66317,211.208,-86.1394)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(-1,1.11022e-16,-5.55112e-17,-0.66317,482.31,155.812)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(0,-0.594977,0.66317,0,308.981,151.386)">
+        <path d="M110.26,177.447L110.26,182.212L102.089,174.881L110.26,167.55L110.26,172.315L164.013,172.315L164.013,177.447L110.26,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(1.22465e-16,0.594977,-0.66317,4.8321e-17,550.933,-9.91324)">
+        <path d="M110.26,177.447L110.26,182.212L102.089,174.881L110.26,167.55L110.26,172.315L164.013,172.315L164.013,177.447L110.26,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+    <g transform="matrix(1,5.55112e-17,-5.55112e-17,0.66317,209.868,-13.2411)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(255,0,0);"/>
+    </g>
+    <g transform="matrix(-1,1.11022e-16,0,-0.66317,480.969,228.711)">
+        <path d="M106.951,177.447L106.951,182.212L102.089,174.881L106.951,167.55L106.951,172.315L164.013,172.315L164.013,177.447L106.951,177.447Z" style="fill:rgb(206,206,206);"/>
+    </g>
+</svg>

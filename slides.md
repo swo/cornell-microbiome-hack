@@ -23,6 +23,10 @@ I want to point you toward:
 - Some data types and experimental models
 - OpenBiome's work and philosophy
 
+---
+
+![](img/openbiome.svg)
+
 # Somewhere in 2012 (or, the Birth of OpenBiome)
 
 ![mark](img/mark.jpeg)
@@ -111,11 +115,11 @@ I want to point you toward:
 - A microbiome *therapy* treats a disease. How could it be tested?
 - A search for a microbiome *mechanism* means you haven't committed to either direction.
 
+---
+
+![](img/deepwater.jpeg){ width=80% }
+
 # Oil-degrading microbes were unexpected parnters after Deepwater Horizon
-
-![](img/deepwater.jpeg){ width=50% }
-
-# Oil-degrading microbes could be a help, or a confusion
 
 - Of spilled Deepwater Horizon oil, humans cleaned up 25% and microbes cleaned up 50%
 - Will oil clean up "on its own" when spilled in other places?
@@ -133,11 +137,17 @@ I want to point you toward:
 
 ![](img/oil_clades.png){ width=50% }
 
+---
+
+![](img/salt.jpg)
+
+# Salt is known to affect blood pressure
+
+![](img/salt_mechanism.svg)
+
 # Does salt affect blood pressure via the microbiome?
 
-- Epidemiology of salt and hypertension
-- Why it makes sense that salt would affect the microbiome
-- Picture of microbiome bypassing the physiology, or providing another step
+![](img/salt_mechanism2.svg)
 
 # A simple experiment was designed to identify salt-sensitive microbes
 
@@ -157,9 +167,15 @@ I want to point you toward:
 
 <div class="footer">Wilck Nature 2017</div>
 
-# Back to the OpenBiome future (2019)
+---
 
-In 2019, had finished a postdoc in AMR. Main conclusion is that we don't have the political will to make something happen. Happened to talk to Claire, who connected me to Carolyn, and that's how I got the job I had, in January. Here's what I discovered.
+One postdoc (on the epidemiology of AMR) later...
+
+---
+
+![](img/openbiome.svg)
+
+2019 edition
 
 # OpenBiome's main work is supplying FMT material to treat C diff
 
