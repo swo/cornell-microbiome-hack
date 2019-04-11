@@ -111,25 +111,27 @@ I want to point you toward:
 - A microbiome *therapy* treats a disease. How could it be tested?
 - A search for a microbiome *mechanism* means you haven't committed to either direction.
 
-# Oil-degrading microbes as unexpected parnters in oil spill response
+# Oil-degrading microbes were unexpected parnters after Deepwater Horizon
 
-- Oil was cleaned up from Deepwater Horizon much faster than expected
-- Contrast this with Prince William Sound (Exxon-Valdez disaster)
+![](img/deepwater.jpeg){ width=50% }
+
+# Oil-degrading microbes could be a help, or a confusion
+
+- Of spilled Deepwater Horizon oil, humans cleaned up 25% and microbes cleaned up 50%
 - Will oil clean up "on its own" when spilled in other places?
 - Could we use oil-degrading microbes intentionally?
 
 # A simple experiment was designed to identify oil-degrading bacteria
 
-- Triads
+![](img/quads.png)
 
 # 16S ribosomal RNA is a tool for characterizing the composition of a bacterial community
 
-- General picture
-- People used to use OTUs; that's going out of fashion
+![](img/16s.png){ width=75% }
 
-# 16S alone, with a simple analytical method, was enough to identify those oil degraders
+# 16S and simple analytical method identified those oil degraders
 
-- Compare to the results from that later paper using more complex methodology
+![](img/oil_clades.png){ width=50% }
 
 # Does salt affect blood pressure via the microbiome?
 
@@ -143,15 +145,17 @@ I want to point you toward:
 - Signal was *way* weaker (show ordination)
 - Also, now had some decent (although not excellent) numbers on our side
 
-# Machine learning methods identified 16S OTUs that differed between the two groups
+# Machine learning identified bacteria that differed between the two diets
 
-- Show the importances
-- Show the Lacto timecourse
+![](img/lacto.svg){ width=40% }
+
+<div class="footer">Wilck Nature 2017</div>
 
 # Replacing the missing microbe alleviated salt-induced high blood pressure
 
-- Show the last figure
-- Why aren't we going crazy over probiotics? Intellectual property and stigma
+![](img/blood_pressure.svg)
+
+<div class="footer">Wilck Nature 2017</div>
 
 # Back to the OpenBiome future (2019)
 
@@ -212,22 +216,46 @@ In 2019, had finished a postdoc in AMR. Main conclusion is that we don't have th
 
 # But, some basic of FMT's mechanism remain unclear
 
-- Forest picture
-- SFF: is that actually it?
-- Donor selection
+![](img/forest.png){ width=50% }
 
-# That isn't going to stop us from trying
+<div class="footer">Ott Gastroenterol 2017</div>
 
-- As per Ilana's thing, focus on Western disease
-- As a non-profit, we can do wackier things with our money, like use our small profits from CDI business to support ultimately unprofitable SAM
-- SAM
-- Huge opportunity (millions of kids), but unclear if there will ever be a good market, because who is going to pay? And it will probably be a South African bank, not OpenBiome.
-- We'd rather put in the haystack, hoping there's a needle, rather than wait to find the needle
-- We're taking the bet that FMT will work for something else. GvHD SPIND is our touchstone.
+# For some people, that means therapy should stop
+
+> Dr. Jeffrey I. Gordon of Washington University in St. Louis, [...] urged
+> caution. He wants to figure out which bacteria are responsible [for
+> FMT-transmissible leanness] so that, eventually, people can be given pure
+> mixtures of bacteria instead of feces. Or, even better, learn what the
+> bacteria produce that induces thinness and give that as a treatment.
+
+<div class="footer">NYT (Sep 5, 2013)</div>
+
+# But we'd rather take the bet
+
+- We'd rather put in the haystack, hoping there's a needle, rather than wait to find the needle.
+- What is FMT *does* work for something else, and we just didn't try?
+- A graft-versus-host disease single patient IND is our touchstone.
+- As a non-profit, we can do wacky things with our money, like use our small profits from *C. diff* sales to support (most likely unprofitable) research into malnutrition.
 
 # Concluding Zen ko'an: Is stool like blood?
 
-- We're asking the "therapy" question, and putting the "mechanism" question second.
-- Other people vehemently disagree.
+![](img/direct_blood.jpg)
+
 - Does it make sense to wait for a defined cocktail? Will it work?
-- Blood is the constant counterexample.
+- Blood is the constant counterexample. It's 100 years since we discovered blood groups, and **we still have no blood substitute**.
+
+# Aside: "Sterile fecal filtrate" is my favorite microbiome mystery
+
+> We investigated whether sterile fecal filtrates (containing bacterial debris,
+> proteins, antimicrobial compounds, metabolic products, and
+> oligonucleotides/DNA), rather than intact microorganisms, are effective in
+> patients with CDI.
+
+> In all 5 patients, [fecal filtrate transfer] restored normal stool habits and
+> eliminated symptoms of CDI for a minimum period of 6 months.
+
+# Aside: Donor effects are my second-favorite microbiome mystery
+
+![](img/superstool.png){ width=50% }
+![](img/superdonor.png){ width=50% }
+![](img/selection.png){ width=50% }
