@@ -226,9 +226,15 @@ One postdoc (on the epidemiology of AMR) later...
 
 # We're starting to understand some things about the mechanism of FMT
 
-- So-so for other conditions
-- Smillie's work about engraftment, that it's not clear how & why stuff engrafts
-- Introduce metagenomics
+![](img/engraftment_abstract.svg){ width=75% }
+
+<div class="footer">Smillie Cell Host Microbe 2018</div>
+
+# We're starting to understand some things about the mechanism of FMT
+
+![](img/engraftment.svg){ width=60% }
+
+<div class="footer">Smillie Cell Host Microbe 2018</div>
 
 # But, some basic of FMT's mechanism remain unclear
 
@@ -253,7 +259,7 @@ One postdoc (on the epidemiology of AMR) later...
 - A graft-versus-host disease single patient IND is our touchstone.
 - As a non-profit, we can do wacky things with our money, like use our small profits from *C. diff* sales to support (most likely unprofitable) research into malnutrition.
 
-# Concluding Zen ko'an: Is stool like blood?
+# Concluding Zen *ko'an*: Is stool like blood?
 
 ![](img/direct_blood.jpg)
 
