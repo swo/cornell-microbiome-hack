@@ -134,7 +134,7 @@ I want to point you toward:
 
 # A simple experiment was designed to identify oil-degrading bacteria
 
-![](img/quads.png)
+![](img/quads.png){ width=90% }
 
 # 16S ribosomal RNA is a tool for characterizing the composition of a bacterial community
 
@@ -324,6 +324,6 @@ The only FMT trial in Africa is OpenBiome's malnutrition trial.
 
 # Aside: Donor effects are my second-favorite microbiome mystery
 
-![](img/superstool.png){ width=50% }
+![](img/superstool.png){ width=40% }
 ![](img/superdonor.png){ width=50% }
 ![](img/selection.png){ width=50% }
