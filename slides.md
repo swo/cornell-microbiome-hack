@@ -33,7 +33,7 @@ I want to point you toward:
 ![smillie](img/smillie.png)
 
 - I was a grad student working on environmental microbiology projects
-- Mark Smith (above) starting bring some non-grad-students around the lab
+- Mark Smith (above) starting bringing some non-grad-students around the lab
 
 # *C. difficile* is a major public health threat
 
@@ -72,7 +72,13 @@ I want to point you toward:
 - 2013: Shipped ~100s of treatments using ~1 technician
 - 2014: Shipped 1,800 treatments to 170 clinical partners
 - 2015: Shipped 7,000 treatments to 520 clinical partners (10% of all recurrent *C. diff* patients)
-- 2016: I graduate from MIT and stop thinking about OpenBiome
+- 2016: I graduated from MIT and stopped thinking about OpenBiome
+
+---
+
+![](img/microbiome.jpg)
+
+<div class="footer">Garrett J Cell Biol 2015</div>
 
 # A schematic for microbiome science and practice
 
@@ -124,6 +130,10 @@ I want to point you toward:
 - Of spilled Deepwater Horizon oil, humans cleaned up 25% and microbes cleaned up 50%
 - Will oil clean up "on its own" when spilled in other places?
 - Could we use oil-degrading microbes intentionally?
+
+# A simple experiment was designed to identify oil-degrading bacteria
+
+![](img/oil_mechanism.svg)
 
 # A simple experiment was designed to identify oil-degrading bacteria
 
@@ -208,6 +218,10 @@ Our dual mission is to:
 The alternative is using a new donor for each patient, and having the doctor process the stool.
 
 If 3% of donors pass the test, you need to ask 33 people to get tested before you find a match!
+
+# Also, we can apply high quality standards
+
+![](img/bristol.png)
 
 # A stool bank can also catalyze FMT research
 
