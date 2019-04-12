@@ -32,7 +32,7 @@ I want to point you toward:
 ![smillie](img/smillie.png)
 
 - I was a grad student working on environmental microbiology projects
-- Mark Smith (above) starting bring some non-grad-students around the lab
+- Mark Smith (above) starting bringing some non-grad-students around the lab
 
 # *C. difficile* is a major public health threat
 
@@ -71,7 +71,13 @@ I want to point you toward:
 - 2013: Shipped ~100s of treatments using ~1 technician
 - 2014: Shipped 1,800 treatments to 170 clinical partners
 - 2015: Shipped 7,000 treatments to 520 clinical partners (10% of all recurrent *C. diff* patients)
-- 2016: I graduate from MIT and stop thinking about OpenBiome
+- 2016: I graduated from MIT and stopped thinking about OpenBiome
+
+---
+
+![](img/microbiome.jpg)
+
+<div class="footer">Garrett J Cell Biol 2015</div>
 
 # A schematic for microbiome science and practice
 
@@ -104,7 +110,7 @@ I want to point you toward:
 
 # This schema helps visualize different activities in microbiome science
 
-**Bacterial diagnostics** (e.g., wastewater epidemiology)
+**Diagnostics** (e.g., wastewater epidemiology)
 
 ![](img/diagnostic.svg)
 
@@ -124,7 +130,11 @@ I want to point you toward:
 
 # A simple experiment was designed to identify oil-degrading bacteria
 
-![](img/quads.png){ width=90% }
+![](img/oil_mechanism.svg)
+
+# A simple experiment was designed to identify oil-degrading bacteria
+
+![](img/quads.png)
 
 # 16S ribosomal RNA is a tool for characterizing the composition of a bacterial community
 
@@ -132,7 +142,9 @@ I want to point you toward:
 
 # 16S and simple analytical method identified those oil degraders
 
-![](img/oil_clades.png){ width=50% }
+![](img/oil_clades.png){ width=45% }
+
+<div class="footer">Olesen PLOS One 2016</div>
 
 # {data-background="img/salt.jpg"}
 
@@ -146,9 +158,7 @@ I want to point you toward:
 
 # A simple experiment was designed to identify salt-sensitive microbes
 
-- Outline of the experiment, with HSD and NSD and recovery
-- Signal was *way* weaker (show ordination)
-- Also, now had some decent (although not excellent) numbers on our side
+![](img/salt_design.svg){ width=75% }
 
 # Machine learning identified bacteria that differed between the two diets
 
@@ -172,52 +182,47 @@ One postdoc (on the epidemiology of AMR) later...
 
 2019 edition
 
-# OpenBiome's main work is supplying FMT material to treat C diff
+# OpenBiome is a nonprofit stool bank
 
-- FMT works really well for CDI
-- Forest picture
-- SFF: is that actually it?
+Our dual mission is to:
 
-# OpenBiome supplies material for C diff treatment at a large scale
+1. Expand safe access to FMT
+1. Catalyze research into the microbiome
 
-- In 2015-2019, delivered 46,000 treatments.
-- Sell to physicians, who use in their patients. 1,200 partners.
+# OpenBiome's main work is supplying FMT material to treat *C. diff*
 
-# A note about regulation
+- Since founding, we've shipped **46,000** treatment units to 1,200 partners
+- Reports from our clinical partners report an efficacy of **80--90%**, comparable to randomized controlled trials
+- Our primary goal is to expand safe access to FMT, so we charge the lowest price we can
 
-- Ancient history: "fecal bacteriotherapy" to "transplant"
-- Wild West
-- Then, as a drug, and "enforcement discretion"
-- What an IND is
-- What our future is
+# FMT for *C. diff* is in a very unusual regulatory situation
 
-# Complexity of manufacturing
+- The FDA regulates FMT as a "biologic product", i.e., like a drug, not like a transplant
+- (Early practitioners changed the name from "fecal bacteriotherapy" to "transplant" hoping to avoid this situation!)
+- To use an unapproved drug, a doctor must fill out an *investigational new drug* (IND) application
+- *But* FMT for recurrent *C. diff* does not require an IND
 
-- Evolved from something silly-simple in the Alm Lab
-- Slow-walked toward FDA's regulation of a GMP drug
-- Had to triple our prices, from $300 to $1600, to account for these rising costs
+# We expand *safe* access to FMT
 
-# Safety
+- Only **3%** of people who apply to be stool donors pass the logistical, clinical, and laboratory screens.
+- We want to avoid known transmissible diseases (e.g., hepatitis) and possible transmissible diseases (e.g., obesity)
+- Of 46,000 treatments, we have had **zero** reports of serious adverse definitely related to the FMT material itself
 
-- Rigorous donor screening
-- Afraid of known transmissibles and *possible* transmissibles
-- Traceable model
-- To get a really good donor, you need to test >33 people. That won't work if you don't have that many friends and family members that you trust that well!
+# Universal stool banking has tremendous economies of scale
 
-# FMT is being tested for dozens of indications beyond C diff
+The alternative is using a new donor for each patient, and having the doctor process the stool.
 
-- OpenBiome's role in all that
-- OpenBiome's numbers
-- Start with my graph figure
-- Sell plain poop for lab bench research
-- Sell poop for external researchers doing FMT clinical studies
-    - That requires an IND
-- Number of indications, etc.
-- Single patient INDs
+If 3% of donors pass the test, you need to ask 33 people to get tested before you find a match!
 
-# In some cases, animal models suggest that microbiome conditions can be transmitted
+# Also, we can apply high quality standards
 
-- Animal models of FMT to show transmissibility, obesity, kwashorkior
+![](img/bristol.png)
+
+# A stool bank can also catalyze FMT research
+
+OpenBiome provides FMT material to clinical researchers for dozens of clinical trials for dozens of indications:
+
+*C. diff*, inflammatory bowel diseases, obesity, hepatic encephalopathy, Sjogren's syndrome, &c. &c.
 
 # We're starting to understand some things about the mechanism of FMT
 
@@ -231,13 +236,13 @@ One postdoc (on the epidemiology of AMR) later...
 
 <div class="footer">Smillie Cell Host Microbe 2018</div>
 
-# But, some basic of FMT's mechanism remain unclear
+# But, FMT's basic mechanism remains a matter of hypothesis
 
 ![](img/forest.png){ width=50% }
 
 <div class="footer">Ott Gastroenterol 2017</div>
 
-# For some people, that means therapy should stop
+# For some, not having the full picture means we should stop doing FMTs
 
 > Dr. Jeffrey I. Gordon of Washington University in St. Louis, [...] urged
 > caution. He wants to figure out which bacteria are responsible [for
@@ -247,14 +252,60 @@ One postdoc (on the epidemiology of AMR) later...
 
 <div class="footer">NYT (Sep 5, 2013)</div>
 
-# But we'd rather take the bet
+# And for-profit microbiome companies are filling that gap
 
-- We'd rather put in the haystack, hoping there's a needle, rather than wait to find the needle.
-- What is FMT *does* work for something else, and we just didn't try?
-- A graft-versus-host disease single patient IND is our touchstone.
-- As a non-profit, we can do wacky things with our money, like use our small profits from *C. diff* sales to support (most likely unprofitable) research into malnutrition.
+<table>
+<tr>
+<td> ![](img/finch.png){ width=250px } </td>
+<td> ![](img/seres.png){ width=250px } </td>
+<td> ![](img/rebiotix.png){ width=250px } </td>
+<td> ![](img/vedanta.png){ width=250px } </td>
+</tr>
+</table>
 
-# Concluding Zen *ko'an*: Is stool like blood?
+> [Vedanta drug candidate] VE303 is a rationally-defined bacterial consortium
+> candidate being developed for the prevention of recurrent *C. difficile*
+> infection.
+
+# Compiling data from across clinical trials *might* give us a better picture
+
+![](img/donors.png)
+
+<div class="footer">Olesen Nat Rev Gastro Hepatol 2018</div>
+
+# OpenBiome would be in a unique place to enable such a meta-analysis
+
+![](img/fmtdb.svg)
+
+# Even without knowing mechanism, we'd rather take the bet
+
+We'd rather put in the haystack (FMT), hoping there's a needle (the "active ingredient"), rather than wait to find the needle.
+
+What if FMT *does* work for something else, and we just didn't try?
+
+# Especially because some conditions are unlikely to get for-profit attention
+
+![](img/blanton.svg){ width=50% }
+
+<div class="footer">Blanton Science 2016</div>
+
+# Other conditions won't get attention until there's microbiome evidence
+
+- A 6-year old girl got leukemia
+- Her leukemia was treated with a bone marrow transplant
+- The transplant led her immune system to attack her GI tract (graft-versus-host disease, GvHD)
+- After every therapy was exhausted, and this girl was near death, her doctor applied for a single-patient IND
+- After FMT, her doctor says it's hard to believe it's the same child; her recovery was so complete
+
+# So we use profits from *C. diff* sales to run OpenBiome-sponsored trials
+
+Work in drug-resistance organism carriage is winding up.
+
+New work in **severe actue malnutrition** and **typhoid carriage** is just beginning.
+
+The only FMT trial in Africa is OpenBiome's malnutrition trial.
+
+# Concluding Zen *ko'an* : Is stool like blood?
 
 ![](img/direct_blood.jpg)
 
