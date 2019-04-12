@@ -5,7 +5,6 @@ date: 13 April 2019
 transition: none
 theme: simple
 controlsTutorial: false
-hash: true
 ---
 
 # Why am I here
@@ -115,9 +114,7 @@ I want to point you toward:
 - A microbiome *therapy* treats a disease. How could it be tested?
 - A search for a microbiome *mechanism* means you haven't committed to either direction.
 
----
-
-![](img/deepwater.jpeg){ width=80% }
+# {data-background="img/deepwater.jpeg"}
 
 # Oil-degrading microbes were unexpected parnters after Deepwater Horizon
 
@@ -127,7 +124,7 @@ I want to point you toward:
 
 # A simple experiment was designed to identify oil-degrading bacteria
 
-![](img/quads.png)
+![](img/quads.png){ width=90% }
 
 # 16S ribosomal RNA is a tool for characterizing the composition of a bacterial community
 
@@ -137,9 +134,7 @@ I want to point you toward:
 
 ![](img/oil_clades.png){ width=50% }
 
----
-
-![](img/salt.jpg)
+# {data-background="img/salt.jpg"}
 
 # Salt is known to affect blood pressure
 
