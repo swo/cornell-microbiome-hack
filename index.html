@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Scott Olesen">
+  <meta name="dcterms.date" content="2019-04-13">
+  <title>Adventures in the Microbiome</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://revealjs.com/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="https://revealjs.com/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="my.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://revealjs.com/css/print/pdf.css' : 'https://revealjs.com/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://revealjs.com/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Adventures in the Microbiome</h1>
+  <p class="author">Scott Olesen</p>
+  <p class="date">13 April 2019</p>
+</section>
+
+<section id="why-am-i-here" class="slide level1">
+<h1>Why am I here</h1>
+<ul>
+<li>I did my PhD at MIT with Eric Alm</li>
+<li>Dr. Brito (“Ilana”) was a close mentor and squash partner</li>
+<li>Dr. Duvallet (“Claire”) was a fellow PhD student</li>
+<li>OpenBiome is cool</li>
+</ul>
+</section>
+<section id="my-goals-for-today" class="slide level1">
+<h1>My goals for today</h1>
+<p>I want to point you toward:</p>
+<ul>
+<li>Some particular questions in the microbiome</li>
+<li>Some data types and experimental models</li>
+<li>OpenBiome’s work and philosophy</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><img data-src="img/openbiome.svg" /></p>
+</section>
+<section id="somewhere-in-2012-or-the-birth-of-openbiome" class="slide level1">
+<h1>Somewhere in 2012 (or, the Birth of OpenBiome)</h1>
+<p><img data-src="img/mark.jpeg" alt="mark" /> <img data-src="img/smillie.png" alt="smillie" /></p>
+<ul>
+<li>I was a grad student working on environmental microbiology projects</li>
+<li>Mark Smith (above) starting bringing some non-grad-students around the lab</li>
+</ul>
+</section>
+<section id="c.-difficile-is-a-major-public-health-threat" class="slide level1">
+<h1><em>C. difficile</em> is a major public health threat</h1>
+<ul>
+<li>It is the most common hospital-acquired infection, affecting 500,000 Americans yearly</li>
+<li>20% do not respond to antibiotics, and 30,000 die</li>
+</ul>
+<p><img data-src="img/cdiff1.png" /> <img data-src="img/cdiff2.png" /></p>
+<div class="footer">
+cdc.gov/cdiff
+</div>
+</section>
+<section id="fecal-microbiota-transplant-fmt-can-cure-most-recurrent-c.-diff" class="slide level1">
+<h1>Fecal microbiota transplant (FMT) can cure most recurrent <em>C. diff</em></h1>
+<blockquote>
+<p>What are the best treatments for recurrent CDI?<br> …<br> [FMT] is recommended for patients with multiple recurrences of CDI who have failed appropriate antibiotic treatments…</p>
+</blockquote>
+<p><img data-src="img/noh.jpeg" style="width:30.0%" /></p>
+<div class="footer">
+https://www.idsociety.org/practice-guideline/clostridium-difficile
+</div>
+</section>
+<section id="openbiome-started-because-a-family-member-couldnt-get-fmt" class="slide level1">
+<h1>OpenBiome started because a family member couldn’t get FMT</h1>
+<blockquote>
+<p>In 2011, a close friend […] contracted a <em>C. difficile</em> infection after a routine surgery, and antibiotic treatment wasn’t working. For 18 months, we watched him suffer with this debilitating illness and several rounds of failed treatment. […] he sought but couldn’t find a clinician who could perform [FMT] for him. When he finally received a [self-administered] life-changing fecal transplant, the effect was remarkable. Within a couple of days he had his life back.</p>
+</blockquote>
+<div class="footer">
+https://www.openbiome.org/about
+</div>
+</section>
+<section id="openbiome-bootstrapped-from-humble-beginnings" class="slide level1">
+<h1>OpenBiome bootstrapped, from humble beginnings</h1>
+<ul>
+<li>2013: Shipped ~100s of treatments using ~1 technician</li>
+<li>2014: Shipped 1,800 treatments to 170 clinical partners</li>
+<li>2015: Shipped 7,000 treatments to 520 clinical partners (10% of all recurrent <em>C. diff</em> patients)</li>
+<li>2016: I graduated from MIT and stopped thinking about OpenBiome</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><img data-src="img/microbiome.jpg" /></p>
+<div class="footer">
+Garrett J Cell Biol 2015
+</div>
+</section>
+<section id="a-schematic-for-microbiome-science-and-practice" class="slide level1">
+<h1>A schematic for microbiome science and practice</h1>
+<p><img data-src="img/schema.svg" /></p>
+</section>
+<section id="application-areas-r-groups-in-the-microbiome" class="slide level1">
+<h1>Application areas (“R-groups”) in the microbiome</h1>
+<ul>
+<li>“Microbiome” means connecting to human <em>host health</em> and <em>host physiology/immunity</em></li>
+<li>Non-human microbiome means different hosts</li>
+<li>(Old school) microbial ecology means connecting to the <em>environment</em></li>
+<li>Agriculture means connecting to <em>plant health and physiology</em></li>
+</ul>
+</section>
+<section id="this-schema-helps-visualize-different-activities-in-microbiome-science" class="slide level1">
+<h1>This schema helps visualize different activities in microbiome science</h1>
+<p><strong>Probiotic therapy</strong></p>
+<p><img data-src="img/probiotic.svg" /></p>
+</section>
+<section id="this-schema-helps-visualize-different-activities-in-microbiome-science-1" class="slide level1">
+<h1>This schema helps visualize different activities in microbiome science</h1>
+<p><strong>Prebiotic therapy</strong></p>
+<p><img data-src="img/prebiotic.svg" /></p>
+</section>
+<section id="this-schema-helps-visualize-different-activities-in-microbiome-science-2" class="slide level1">
+<h1>This schema helps visualize different activities in microbiome science</h1>
+<p><strong>FMT</strong></p>
+<p><img data-src="img/fmt.svg" /></p>
+</section>
+<section id="this-schema-helps-visualize-different-activities-in-microbiome-science-3" class="slide level1">
+<h1>This schema helps visualize different activities in microbiome science</h1>
+<p><strong>Diagnostics</strong> (e.g., wastewater epidemiology)</p>
+<p><img data-src="img/diagnostic.svg" /></p>
+</section>
+<section id="know-which-way-your-arrows-point-to-avoid-confusion-and-useless-work" class="slide level1">
+<h1>Know which way your arrows point to avoid confusion and useless work</h1>
+<ul>
+<li>A microbiome <em>diagnostic</em> predicts or classifies disease. But is there an easier source of data?</li>
+<li>A microbiome <em>therapy</em> treats a disease. How could it be tested?</li>
+<li>A search for a microbiome <em>mechanism</em> means you haven’t committed to either direction.</li>
+</ul>
+</section>
+<section id="section" class="slide level1" data-background="img/deepwater.jpeg">
+<h1></h1>
+</section>
+<section id="oil-degrading-microbes-were-unexpected-parnters-after-deepwater-horizon" class="slide level1">
+<h1>Oil-degrading microbes were unexpected parnters after Deepwater Horizon</h1>
+<ul>
+<li>Of spilled Deepwater Horizon oil, humans cleaned up 25% and microbes cleaned up 50%</li>
+<li>Will oil clean up “on its own” when spilled in other places?</li>
+<li>Could we use oil-degrading microbes intentionally?</li>
+</ul>
+</section>
+<section id="a-simple-experiment-was-designed-to-identify-oil-degrading-bacteria" class="slide level1">
+<h1>A simple experiment was designed to identify oil-degrading bacteria</h1>
+<p><img data-src="img/oil_mechanism.svg" /></p>
+</section>
+<section id="a-simple-experiment-was-designed-to-identify-oil-degrading-bacteria-1" class="slide level1">
+<h1>A simple experiment was designed to identify oil-degrading bacteria</h1>
+<p><img data-src="img/quads.png" style="width:90.0%" /></p>
+</section>
+<section id="s-ribosomal-rna-is-a-tool-for-characterizing-the-composition-of-a-bacterial-community" class="slide level1">
+<h1>16S ribosomal RNA is a tool for characterizing the composition of a bacterial community</h1>
+<p><img data-src="img/16s.png" style="width:75.0%" /></p>
+</section>
+<section id="s-and-simple-analytical-method-identified-those-oil-degraders" class="slide level1">
+<h1>16S and simple analytical method identified those oil degraders</h1>
+<p><img data-src="img/oil_clades.png" style="width:45.0%" /></p>
+<div class="footer">
+Olesen PLOS One 2016
+</div>
+</section>
+<section id="section-1" class="slide level1" data-background="img/salt.jpg">
+<h1></h1>
+</section>
+<section id="salt-is-known-to-affect-blood-pressure" class="slide level1">
+<h1>Salt is known to affect blood pressure</h1>
+<p><img data-src="img/salt_mechanism.svg" /></p>
+</section>
+<section id="does-salt-affect-blood-pressure-via-the-microbiome" class="slide level1">
+<h1>Does salt affect blood pressure via the microbiome?</h1>
+<p><img data-src="img/salt_mechanism2.svg" /></p>
+</section>
+<section id="a-simple-experiment-was-designed-to-identify-salt-sensitive-microbes" class="slide level1">
+<h1>A simple experiment was designed to identify salt-sensitive microbes</h1>
+<p><img data-src="img/salt_design.svg" style="width:75.0%" /></p>
+</section>
+<section id="machine-learning-identified-bacteria-that-differed-between-the-two-diets" class="slide level1">
+<h1>Machine learning identified bacteria that differed between the two diets</h1>
+<p><img data-src="img/lacto.svg" style="width:40.0%" /></p>
+<div class="footer">
+Wilck Nature 2017
+</div>
+</section>
+<section id="replacing-the-missing-microbe-alleviated-salt-induced-high-blood-pressure" class="slide level1">
+<h1>Replacing the missing microbe alleviated salt-induced high blood pressure</h1>
+<p><img data-src="img/blood_pressure.svg" /></p>
+<div class="footer">
+Wilck Nature 2017
+</div>
+</section>
+<section class="slide level1">
+
+<p>One postdoc (on the epidemiology of AMR) later…</p>
+</section>
+<section class="slide level1">
+
+<p><img data-src="img/openbiome.svg" /></p>
+<p>2019 edition</p>
+</section>
+<section id="openbiome-is-a-nonprofit-stool-bank" class="slide level1">
+<h1>OpenBiome is a nonprofit stool bank</h1>
+<p>Our dual mission is to:</p>
+<ol type="1">
+<li>Expand safe access to FMT</li>
+<li>Catalyze research into the microbiome</li>
+</ol>
+</section>
+<section id="openbiomes-main-work-is-supplying-fmt-material-to-treat-c.-diff" class="slide level1">
+<h1>OpenBiome’s main work is supplying FMT material to treat <em>C. diff</em></h1>
+<ul>
+<li>Since founding, we’ve shipped <strong>46,000</strong> treatment units to 1,200 partners</li>
+<li>Reports from our clinical partners report an efficacy of <strong>80–90%</strong>, comparable to randomized controlled trials</li>
+<li>Our primary goal is to expand safe access to FMT, so we charge the lowest price we can</li>
+</ul>
+</section>
+<section id="fmt-for-c.-diff-is-in-a-very-unusual-regulatory-situation" class="slide level1">
+<h1>FMT for <em>C. diff</em> is in a very unusual regulatory situation</h1>
+<ul>
+<li>The FDA regulates FMT as a “biologic product”, i.e., like a drug, not like a transplant</li>
+<li>(Early practitioners changed the name from “fecal bacteriotherapy” to “transplant” hoping to avoid this situation!)</li>
+<li>To use an unapproved drug, a doctor must fill out an <em>investigational new drug</em> (IND) application</li>
+<li><em>But</em> FMT for recurrent <em>C. diff</em> does not require an IND</li>
+</ul>
+</section>
+<section id="we-expand-safe-access-to-fmt" class="slide level1">
+<h1>We expand <em>safe</em> access to FMT</h1>
+<ul>
+<li>Only <strong>3%</strong> of people who apply to be stool donors pass the logistical, clinical, and laboratory screens.</li>
+<li>We want to avoid known transmissible diseases (e.g., hepatitis) and possible transmissible diseases (e.g., obesity)</li>
+<li>Of 46,000 treatments, we have had <strong>zero</strong> reports of serious adverse definitely related to the FMT material itself</li>
+</ul>
+</section>
+<section id="universal-stool-banking-has-tremendous-economies-of-scale" class="slide level1">
+<h1>Universal stool banking has tremendous economies of scale</h1>
+<p>The alternative is using a new donor for each patient, and having the doctor process the stool.</p>
+<p>If 3% of donors pass the test, you need to ask 33 people to get tested before you find a match!</p>
+</section>
+<section id="also-we-can-apply-high-quality-standards" class="slide level1">
+<h1>Also, we can apply high quality standards</h1>
+<p><img data-src="img/bristol.png" /></p>
+</section>
+<section id="a-stool-bank-can-also-catalyze-fmt-research" class="slide level1">
+<h1>A stool bank can also catalyze FMT research</h1>
+<p>OpenBiome provides FMT material to clinical researchers for dozens of clinical trials for dozens of indications:</p>
+<p><em>C. diff</em>, inflammatory bowel diseases, obesity, hepatic encephalopathy, Sjogren’s syndrome, &amp;c. &amp;c.</p>
+</section>
+<section id="were-starting-to-understand-some-things-about-the-mechanism-of-fmt" class="slide level1">
+<h1>We’re starting to understand some things about the mechanism of FMT</h1>
+<p><img data-src="img/engraftment_abstract.svg" style="width:75.0%" /></p>
+<div class="footer">
+Smillie Cell Host Microbe 2018
+</div>
+</section>
+<section id="were-starting-to-understand-some-things-about-the-mechanism-of-fmt-1" class="slide level1">
+<h1>We’re starting to understand some things about the mechanism of FMT</h1>
+<p><img data-src="img/engraftment.svg" style="width:60.0%" /></p>
+<div class="footer">
+Smillie Cell Host Microbe 2018
+</div>
+</section>
+<section id="but-fmts-basic-mechanism-remains-a-matter-of-hypothesis" class="slide level1">
+<h1>But, FMT’s basic mechanism remains a matter of hypothesis</h1>
+<p><img data-src="img/forest.png" style="width:50.0%" /></p>
+<div class="footer">
+Ott Gastroenterol 2017
+</div>
+</section>
+<section id="for-some-not-having-the-full-picture-means-we-should-stop-doing-fmts" class="slide level1">
+<h1>For some, not having the full picture means we should stop doing FMTs</h1>
+<blockquote>
+<p>Dr. Jeffrey I. Gordon of Washington University in St. Louis, […] urged caution. He wants to figure out which bacteria are responsible [for FMT-transmissible leanness] so that, eventually, people can be given pure mixtures of bacteria instead of feces. Or, even better, learn what the bacteria produce that induces thinness and give that as a treatment.</p>
+</blockquote>
+<div class="footer">
+NYT (Sep 5, 2013)
+</div>
+</section>
+<section id="and-for-profit-microbiome-companies-are-filling-that-gap" class="slide level1">
+<h1>And for-profit microbiome companies are filling that gap</h1>
+<table>
+<tr>
+<td>
+<img data-src="img/finch.png" width="250" />
+</td>
+<td>
+<img data-src="img/seres.png" width="250" />
+</td>
+<td>
+<img data-src="img/rebiotix.png" width="250" />
+</td>
+<td>
+<img data-src="img/vedanta.png" width="250" />
+</td>
+</tr>
+</table>
+<blockquote>
+<p>[Vedanta drug candidate] VE303 is a rationally-defined bacterial consortium candidate being developed for the prevention of recurrent <em>C. difficile</em> infection.</p>
+</blockquote>
+</section>
+<section id="compiling-data-from-across-clinical-trials-might-give-us-a-better-picture" class="slide level1">
+<h1>Compiling data from across clinical trials <em>might</em> give us a better picture</h1>
+<p><img data-src="img/donors.png" /></p>
+<div class="footer">
+Olesen Nat Rev Gastro Hepatol 2018
+</div>
+</section>
+<section id="openbiome-would-be-in-a-unique-place-to-enable-such-a-meta-analysis" class="slide level1">
+<h1>OpenBiome would be in a unique place to enable such a meta-analysis</h1>
+<p><img data-src="img/fmtdb.svg" /></p>
+</section>
+<section id="even-without-knowing-mechanism-wed-rather-take-the-bet" class="slide level1">
+<h1>Even without knowing mechanism, we’d rather take the bet</h1>
+<p>We’d rather put in the haystack (FMT), hoping there’s a needle (the “active ingredient”), rather than wait to find the needle.</p>
+<p>What if FMT <em>does</em> work for something else, and we just didn’t try?</p>
+</section>
+<section id="especially-because-some-conditions-are-unlikely-to-get-for-profit-attention" class="slide level1">
+<h1>Especially because some conditions are unlikely to get for-profit attention</h1>
+<p><img data-src="img/blanton.svg" style="width:50.0%" /></p>
+<div class="footer">
+Blanton Science 2016
+</div>
+</section>
+<section id="other-conditions-wont-get-attention-until-theres-microbiome-evidence" class="slide level1">
+<h1>Other conditions won’t get attention until there’s microbiome evidence</h1>
+<ul>
+<li>A 6-year old girl got leukemia</li>
+<li>Her leukemia was treated with a bone marrow transplant</li>
+<li>The transplant led her immune system to attack her GI tract (graft-versus-host disease, GvHD)</li>
+<li>After every therapy was exhausted, and this girl was near death, her doctor applied for a single-patient IND</li>
+<li>After FMT, her doctor says it’s hard to believe it’s the same child; her recovery was so complete</li>
+</ul>
+</section>
+<section id="so-we-use-profits-from-c.-diff-sales-to-run-openbiome-sponsored-trials" class="slide level1">
+<h1>So we use profits from <em>C. diff</em> sales to run OpenBiome-sponsored trials</h1>
+<p>Work in drug-resistance organism carriage is winding up.</p>
+<p>New work in <strong>severe actue malnutrition</strong> and <strong>typhoid carriage</strong> is just beginning.</p>
+<p>The only FMT trial in Africa is OpenBiome’s malnutrition trial.</p>
+</section>
+<section id="concluding-zen-koan-is-stool-like-blood" class="slide level1">
+<h1>Concluding Zen <em>ko’an</em> : Is stool like blood?</h1>
+<p><img data-src="img/direct_blood.jpg" /></p>
+<ul>
+<li>Does it make sense to wait for a defined cocktail? Will it work?</li>
+<li>Blood is the constant counterexample. It’s 100 years since we discovered blood groups, and <strong>we still have no blood substitute</strong>.</li>
+</ul>
+</section>
+<section id="aside-sterile-fecal-filtrate-is-my-favorite-microbiome-mystery" class="slide level1">
+<h1>Aside: “Sterile fecal filtrate” is my favorite microbiome mystery</h1>
+<blockquote>
+<p>We investigated whether sterile fecal filtrates (containing bacterial debris, proteins, antimicrobial compounds, metabolic products, and oligonucleotides/DNA), rather than intact microorganisms, are effective in patients with CDI.</p>
+</blockquote>
+<blockquote>
+<p>In all 5 patients, [fecal filtrate transfer] restored normal stool habits and eliminated symptoms of CDI for a minimum period of 6 months.</p>
+</blockquote>
+</section>
+<section id="aside-donor-effects-are-my-second-favorite-microbiome-mystery" class="slide level1">
+<h1>Aside: Donor effects are my second-favorite microbiome mystery</h1>
+<p><img data-src="img/superstool.png" style="width:40.0%" /> <img data-src="img/superdonor.png" style="width:50.0%" /> <img data-src="img/selection.png" style="width:50.0%" /></p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://revealjs.com/lib/js/head.min.js"></script>
+  <script src="https://revealjs.com/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true },
+          { src: 'https://revealjs.com/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

@@ -1,5 +1,5 @@
 my_css = my.css
-slides_html = slides.html
+slides_html = index.html
 slides_md = slides.md
 
 html:
